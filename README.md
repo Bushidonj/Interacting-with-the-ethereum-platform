@@ -1,4 +1,4 @@
-<h1 align="center"> Interacting with the ethereum platform </h1>
+<h1 align="center"> Interacting with the Ethereum platform </h1>
 
 <h4 align="center"> 
 	🚧  goBlockchain 🚀 Under construction...  🚧
@@ -30,6 +30,8 @@
 <h3> Ethereum is a decentralized platform, in which its purpose is to create applications and smart contracts.</h3>
 <h3>In addition, its applications are fully proof of censorship, fraud or interference from third parties. Giving security to users of this technology. All blocks that keep your information are also available to all users so that each one can have their own copy, guaranteeing the immutability of all applications on the network. </h3>
 
+<img alt="Blockchain" title="#blockchain" href="https://goblockchain.io/" src="./img/blockchain.png" />
+
 # ✅ Pre requirements
 
 
@@ -47,6 +49,46 @@ Before starting, you will need to have the following tool installed on your mach
 
 
 # 🛠  How to install the Geth client
+
+<p>Estaremos ultilizando o sistema linux na aplicação deste sistema, se por acaso você estiver ultilizando sistema Windows ou MacOS deixarei um <a href="https://geth.ethereum.org/docs/install-and-build/installing-geth#install-on-ubuntu-via-ppas" > link </a> para ativação de outros softwares, vale apena lembrar de consultar para verificar se ouve alguma atualização do sistema que pode afetar a instalação por estarem ultilizando codigos que não são mais reconhecidos pelo sistema  </p>
+
+<h3>To enable our launchpad repository run: </h3>
+
+```bash
+   sudo add-apt-repository -y ppa:ethereum/ethereum
+```
+
+<h3>Then install the stable version of go-ethereum:</h3>
+
+```bash
+   sudo apt-get update
+   sudo apt-get install ethereum
+```
+
+<h3>Or the develop version via: </h3>
+
+```bash
+   sudo apt-get update
+   sudo apt-get install ethereum-unstable
+```
+
+<h2> Install on Arch Linux via pacman </h2>
+
+The geth package is available from the <a href="https://archlinux.org/packages/community/x86_64/go-ethereum/">community repo. </a>
+
+<p>You can install it using:</p>
+
+```bash
+   pacman -S geth
+```
+
+<p>THE abigen, bootnode, clef, evm, geth, puppeth, rlpdump, and wnode commands are then available on your system in /usr/bin/.</p>
+
+<p>Find the different options and commands available with</p> 
+
+```bash
+   geth --help
+```
 
 ## How to run a network on testnet
 
