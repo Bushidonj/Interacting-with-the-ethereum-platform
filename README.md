@@ -27,7 +27,8 @@
 
 # What is Ethereum
 
-<p>A</p>
+<h3> Ethereum is a decentralized platform, in which its purpose is to create applications and smart contracts.</h3>
+<h3>In addition, its applications are fully proof of censorship, fraud or interference from third parties. Giving security to users of this technology. All blocks that keep your information are also available to all users so that each one can have their own copy, guaranteeing the immutability of all applications on the network. </h3>
 
 # ✅ Pre requirements
 
@@ -36,10 +37,16 @@ Before starting, you will need to have the following tool installed on your mach
 
 [VSCode](https://code.visualstudio.com/)
 
+[Geth](https://geth.ethereum.org/downloads/)
+
+[Infura](https://infura.io/)
+
+[Ganache](https://www.trufflesuite.com/ganache)
 
 
 
-# 🛠  How to install the geth client
+
+# 🛠  How to install the Geth client
 
 ## How to run a network on testnet
 
