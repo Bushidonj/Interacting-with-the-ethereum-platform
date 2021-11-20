@@ -10,6 +10,7 @@
 * [What is Ethereum](#what-is-ethereum)                            
 * [Pre requirements](pre-requirements)
  * [How to install the geth client](#how-to-install-the-geth-client)
+ * [How to set up and run a full Ethereum node](how-to-set-up-and-run-a-full-Ethereum-node)
       * [How to run a network on testnet](#how-to-run-a-network-on-testnet)
       * [How to run on private network](#how-to-run-on-private-network)
       * [How to create a local account](#how-to-create-a-local-account)
@@ -75,6 +76,70 @@ The geth package is available from the <a href="https://archlinux.org/packages/c
 ```bash
    geth --help
 ```
+
+# How to set up and run a full Ethereum node
+
+<p> I will leave the <a href="https://github.com/ethereum/go-ethereum"> ( link )  </a> dthe directory for update reasons </p>
+
+<p> Always remember to create a folder so you can delete later more easily </p>
+
+<p> Open your terminal (control + alt + t ) and use these commands </p>
+
+<p> Add this code plus the name of the folder you want to create for example: ( code below + ethereum ) you will be creating a folder with this name </p>
+
+```bash
+  mkdir ethereum
+```
+
+<p> After creating the folder type this code ( cd + the name of the folder you created, in our example we use the name as ethereum ) to be able to add the repositories </p>
+
+```bash
+   cd ethereum 
+```
+<p> Now paste these codes to download all the repositories needed for the test </p> 
+
+```bash
+   git clone https://github.com/ethereum/go-ethereum.git
+```
+
+<img alt="gitClone" title="#gitClone" href="https://github.com/ethereum/go-ethereum" src="./img/gitclone.png" />
+
+<p>A folder called go-ethereum was created, to check if the files were actually created and cloned, enter the code below to check if everything is ok </p>
+
+```bash
+    ls go-ethereum
+```
+
+<img alt="goethereum" title="#goethereum" href="" src="./img/goEthereum.png">
+
+<p> After confirming the creation, we will enter using the code "cd" so that we can interact within it: </p>
+
+```bash
+   cd go-ethereum
+```
+
+<p> Let's compile all this may take a while type the code below </p>
+
+```bash
+   make all
+```
+<p> After compiling type the next code to check if everything is ok: </p>
+
+```bash 
+   make geth
+```
+
+<p> Check if your code is like this: </p>
+
+<img alt="makegeth" title="#makegeth" href="" src="./img/makegeth.png">
+
+
+<p> To run type </p>
+
+```bash
+   ./build/bin/geth
+```
+<p> Ready! you have just become a node in the ethereum system- DON'T FORGET TO STOP THE RUN CLICK THE BUTTON ( CONTROL + C ) as this type of system downloads blockchain data and can take up considerable memory space on your hard drive </p>
 
 ## How to run a network on testnet
 
