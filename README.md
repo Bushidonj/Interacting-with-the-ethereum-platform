@@ -50,29 +50,15 @@ Before starting, you will need to have the following tool installed on your mach
 
 # 🛠  How to install the Geth client
 
-<p>Estaremos ultilizando o sistema linux na aplicação deste sistema, se por acaso você estiver ultilizando sistema Windows ou MacOS deixarei um <a href="https://geth.ethereum.org/docs/install-and-build/installing-geth#install-on-ubuntu-via-ppas" > link </a> para ativação de outros softwares, vale apena lembrar de consultar para verificar se ouve alguma atualização do sistema que pode afetar a instalação por estarem ultilizando codigos que não são mais reconhecidos pelo sistema  </p>
+<p>We will be using the linux system in the application of this system, if by chance you are using Windows or MacOS system I will leave an <a href = "https://geth.ethereum.org/docs/install-and-build/installing-geth#install -on-ubuntu-via-ppas ">( link )</a> for activating other software, it is worth checking to see if you hear system updates that may affect the installation because they are using codes that are no longer included by the system  </p>
 
-<h3>To enable our launchpad repository run: </h3>
-
-```bash
-   sudo add-apt-repository -y ppa:ethereum/ethereum
-```
-
-<h3>Then install the stable version of go-ethereum:</h3>
+### Open your terminal "control + alt + t" to enable our launchpad repository run: 
 
 ```bash
-   sudo apt-get update
-   sudo apt-get install ethereum
+   sudo apt-get install software-properties-common
 ```
 
-<h3>Or the develop version via: </h3>
-
-```bash
-   sudo apt-get update
-   sudo apt-get install ethereum-unstable
-```
-
-<h2> Install on Arch Linux via pacman </h2>
+## Install on Arch Linux via pacman 
 
 The geth package is available from the <a href="https://archlinux.org/packages/community/x86_64/go-ethereum/">community repo. </a>
 
